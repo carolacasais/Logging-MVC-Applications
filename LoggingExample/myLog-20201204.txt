@@ -1,0 +1,10 @@
+2020-12-04T17:36:28.4887587+01:00 0HM4OEAUVICPE:00000004 [ERR] An error occured while trying to increase or retrieve the page display count. Number parameter is: 16 (d01e3e98)
+System.Collections.Generic.KeyNotFoundException: The given key '16' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LoggingExample.Services.Counter.IncrementNumberCount(Int32 number) in D:\20610\20486D\Allfiles\Mod10\Democode\03_LoggingExample_begin\LoggingExample\Services\Counter.cs:line 23
+   at LoggingExample.Controllers.HomeController.GetDividedNumber(Int32 id) in D:\20610\20486D\Allfiles\Mod10\Democode\03_LoggingExample_begin\LoggingExample\Controllers\HomeController.cs:line 35
+2020-12-04T17:36:30.2451914+01:00 0HM4OEAUVICPE:00000005 [ERR] An error occured while trying to increase or retrieve the page display count. Number parameter is: 16 (d01e3e98)
+System.Collections.Generic.KeyNotFoundException: The given key '16' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LoggingExample.Services.Counter.IncrementNumberCount(Int32 number) in D:\20610\20486D\Allfiles\Mod10\Democode\03_LoggingExample_begin\LoggingExample\Services\Counter.cs:line 23
+   at LoggingExample.Controllers.HomeController.GetDividedNumber(Int32 id) in D:\20610\20486D\Allfiles\Mod10\Democode\03_LoggingExample_begin\LoggingExample\Controllers\HomeController.cs:line 35
